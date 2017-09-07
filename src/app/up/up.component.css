@@ -1,0 +1,134 @@
+.fon_face {
+  height: 911px;
+  background-image: url("../../assets/pic/face/fon_forest.png");
+  background-repeat: no-repeat;
+}
+.fon_face .over {
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+}
+.fon_face .over .logo {
+  position: absolute;
+  left: 375px;
+  top: 10px;
+}
+.fon_face .over .name_site {
+  position: absolute;
+  top: 30px;
+  left: 475px;
+}
+.fon_face .over .about_site {
+  position: absolute;
+  top: 65px;
+  left: 475px;
+}
+.fon_face .over .icon_tel {
+  position: absolute;
+  top: 40px;
+  left: 975px;
+}
+.fon_face .over .tel {
+  position: absolute;
+  top: 40px;
+  left: 1025px;
+}
+.fon_face .over .call_me {
+  position: absolute;
+  top: 30px;
+  left: 1270px;
+  height: 40px;
+  width: 270px;
+  font-size: 18px;
+  dispay: block;
+  margin: 0 auto;
+  border: 1px solid #653e2b;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+  transition: all lianer 0.5s;
+  text-align: center;
+  cursor: pointer;
+  color: #653e2b;
+}
+.fon_face .over .call_me:hover {
+  background-color: #ccc;
+}
+.fon_face .name {
+  position: relative;
+  top: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 85px;
+  color: #fff;
+}
+.fon_face .about {
+  position: relative;
+  top: 110px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 34px;
+}
+.fon_face .fon_button {
+  position: relative;
+  top: 160px;
+  height: 105px;
+  background-image: url("../../assets/pic/face/fon_for_button.png");
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.fon_face .fon_button .centr_button_block {
+  position: inherit;
+  top: 15px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.fon_face .fon_button .centr_button_block .lit_button {
+  display: inline-block;
+  margin: 0 50px;
+  cursor: pointer;
+}
+.fon_face .fon_button .centr_button_block .lit_button .image {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  border-radius: 35px;
+}
+.fon_face .fon_button .centr_button_block .lit_button .image img {
+  position: relative;
+  top: 15px;
+}
+.fon_face .fon_button .centr_button_block .lit_button .image,
+.fon_face .fon_button .centr_button_block .lit_button .text {
+  display: inline-block;
+}
+.fon_face .fon_button .centr_button_block .lit_button .text {
+  position: relative;
+  top: 15px;
+  width: 160px;
+}
+.fon_face .come {
+  color: #fff;
+  position: relative;
+  top: 200px;
+  display: block;
+  text-align: center;
+}
+.fon_face .large_button {
+  position: relative;
+  top: 250px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("../../assets/pic/face/button_on_face.png");
+  background-repeat: no-repeat;
+  height: 113px;
+  width: 388px;
+  font-size: 30px;
+  padding-top: 30px;
+  cursor: pointer;
+}

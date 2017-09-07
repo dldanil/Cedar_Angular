@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FaceComponent } from './face/face.component';
+import { UpComponent } from './up/up.component';
+import { Block3Component } from './block3/block3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FaceComponent,
+    UpComponent,
+    Block3Component
   ],
   imports: [
     BrowserModule,

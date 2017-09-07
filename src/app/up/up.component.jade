@@ -1,0 +1,30 @@
+mixin little_button(adress, text)
+    .lit_button
+        .image
+            img(src= "../../assets/pic/face/button_"+adress+".png" )
+        .text= (text)
+
+.fon_face
+    .over
+        .logo
+            img(src="../../assets/pic/Icon_ezh.png")
+        .name_site
+            img(src="../../assets/pic/name_site.png")
+        .about_site
+            img(src="../../assets/pic/about_site.png")
+        .icon_tel
+            img(src="../../assets/pic/icon_tel.png")
+        .tel
+            img(src="../../assets/pic/tel.png")
+        button.call_me Перезвоните мне
+    .name Кедровая комната
+    .about Для взрослых и детей: здоровье крепче, <br/> иммунитет сильней
+    .fon_button
+        .centr_button_block
+            +little_button("time", "20 минутный сеанс в приятной обстановке.")
+            +little_button("cup", "Дегустация травянных чаёв")
+            +little_button("leaf", "Интересно и малышам и их родителям.")
+    .come Запишись на бесплатный первый сеанс
+    .large_button Записаться
+
+
