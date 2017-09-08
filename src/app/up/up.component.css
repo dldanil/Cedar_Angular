@@ -82,7 +82,7 @@
 }
 .fon_face .fon_button .centr_button_block {
   position: inherit;
-  top: 15px;
+  top: 0;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -109,7 +109,7 @@
 .fon_face .fon_button .centr_button_block .lit_button .text {
   position: relative;
   top: 15px;
-  width: 160px;
+  width: 180px;
 }
 .fon_face .come {
   color: #fff;
