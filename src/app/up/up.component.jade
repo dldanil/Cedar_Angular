@@ -19,8 +19,8 @@ mixin little_button(adress, text)
         button.call_me Перезвоните мне
     .name Кедровая комната
     .about Для взрослых и детей: здоровье крепче, <br/> иммунитет сильней
-    .fon_button
-        .centr_button_block
+    .fon_button.row
+        .centr_button_block.col-xl-8
             +little_button("time", "20 минутный сеанс в приятной обстановке.")
             +little_button("cup", "Дегустация травянных чаёв")
             +little_button("leaf", "Интересно и малышам и их родителям.")

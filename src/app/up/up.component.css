@@ -86,10 +86,11 @@
   display: block;
   text-align: center;
   margin: 0 auto;
+  border: 1px solid #f00;
 }
 .fon_face .fon_button .centr_button_block .lit_button {
   display: inline-block;
-  margin: 0 50px;
+  margin: 0 20px;
   cursor: pointer;
 }
 .fon_face .fon_button .centr_button_block .lit_button .image {
@@ -108,8 +109,9 @@
 }
 .fon_face .fon_button .centr_button_block .lit_button .text {
   position: relative;
-  top: 15px;
+  top: 20px;
   width: 180px;
+  margin-top: 10px;
 }
 .fon_face .come {
   color: #fff;
