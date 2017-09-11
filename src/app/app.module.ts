@@ -1,13 +1,13 @@
-import {BrowserModule} from "@angular/platform-browser";
-import {NgModule} from "@angular/core";
-import {FormsModule} from "@angular/forms";
-import {HttpModule} from "@angular/http";
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
-import {AppComponent} from "./app.component";
-import {FaceComponent} from "./face/face.component";
-import {UpComponent} from "./up/up.component";
-import {Block3Component} from "./block3/block3.component";
-import {Block2Component} from "./block2/name.component";
+import { AppComponent } from './app.component';
+import { FaceComponent } from './face/face.component';
+import { UpComponent } from './up/up.component';
+import { Block3Component } from './block3/block3.component';
+import {MyComponent } from './name/name.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import {Block2Component} from "./block2/name.component";
     FaceComponent,
     UpComponent,
     Block3Component,
-    Block2Component
+    MyComponent
   ],
   imports: [
     BrowserModule,
