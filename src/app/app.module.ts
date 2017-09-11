@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { FaceComponent } from './face/face.component';
 import { UpComponent } from './up/up.component';
 import { Block3Component } from './block3/block3.component';
-import {MyComponent } from './name/name.component';
+import {MyComponent } from './block2/name.component';
 
 @NgModule({
   declarations: [
