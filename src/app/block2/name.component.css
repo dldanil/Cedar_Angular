@@ -1,13 +1,27 @@
+*{
+font-size:relative;
+margin:relative;
+padding:relative;
+
+
+}
 #slight {
+  
   text-align: center;
   color: #714507;
-  font-size:28pt;
+  font-size:28px;
 }
 .t-a{
-  font-size:28pt;
+  font-size:28px;
+}
+img{
+ max-width: 100%;
+margin:0 90px  0;
+
+  height: auto;
 }
 .animal {
-  
+  padding-left:9%;
   float : left;
 }
 #dear_friends {
@@ -15,4 +29,11 @@
   color: #714507;
   text-align:center;
   padding-top:85px;
+}
+@media (max-width:683px){
+.animal{
+width:auto;
+max-width:100%;
+float:none;
+margin: 0;}
 }
